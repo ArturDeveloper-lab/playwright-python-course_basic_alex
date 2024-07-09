@@ -21,3 +21,4 @@ with sync_playwright() as playwright:
     expect(page).to_have_title('Installation | Playwright Python') # async with waiting mechanism
     # assert page.title() == 'Installation | Playwright Python' # sync without waiting mechanism
     browser.close()
+    print("ddd")
