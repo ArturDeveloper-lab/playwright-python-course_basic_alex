@@ -24,3 +24,4 @@ def test_playwright_python_api(setup):
     page.get_by_role(role='link', name='Docs').click()
 
     page.wait_for_timeout(3000)
+    print("aaa")
